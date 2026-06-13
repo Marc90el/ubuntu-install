@@ -7,6 +7,10 @@ remmina rhythmbox shotwell totem transmission-common
 
 sudo apt update && sudo apt upgrade && sudo snap refresh && sudo apt autoremove
 
+apt install sudo
+apt-get install software-properties-common
+add-apt-repository ppa:ondrej/php
+
 sudo apt install apache2 \
 ghostscript \
 libapache2-mod-php \
